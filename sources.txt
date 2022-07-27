@@ -1,1 +1,2 @@
 https://bootstrapmade.com/demo/templates/Delicious/
+https://picturepan2.github.io/devices.css/
