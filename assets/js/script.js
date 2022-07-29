@@ -13,7 +13,6 @@ var database = firebase.database();
 
 var ref = firebase.database().ref();
 
-
 ref.on("value", function(snapshot) {
     var list_categories = document.getElementById("list_categories")
     // console.log(snapshot.val());
