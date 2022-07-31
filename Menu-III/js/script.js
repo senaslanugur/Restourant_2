@@ -24,7 +24,7 @@ ref.on("value", function(snapshot) {
     }
 
     var products = document.getElementById("products")
-    setTimeout(() => {
+    
     for(var i=0;i<keys.length;i++){
         for(var k=0;k<test[keys[i]].length;k++){
             products.innerHTML += '<div class="col-lg-6 grid-item '+keys[i]+'"><div class="menu-item"><div class="menu-image">'+
@@ -34,7 +34,7 @@ ref.on("value", function(snapshot) {
             
         }
         
-    }}, 1000);
+    };
 
 }, function (error) {
     console.log("Error: " + error.code);
