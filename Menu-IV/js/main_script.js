@@ -25,9 +25,9 @@ ref.on("value", function(snapshot) {
     console.log(Object.values(test))
     var inter = ""
     var inter_2 = ""
-    inter = '<li class="active" data-name="*"> <a href="#">All Menu</a></li>'
+    inter = '<li class="active" data-name="*"> <a href="#!">All Menu</a></li>'
     for(var i=0;i<keys.length;i++){
-        inter += '<li data-name=".'+keys[i].toLowerCase()+'"> <a href="#"> '+keys[i]+'</a></li>'
+        inter += '<li data-name=".'+keys[i].toLowerCase()+'"> <a href="#!"> '+keys[i]+'</a></li>'
     }
     list_categories.innerHTML = inter
 
@@ -36,7 +36,7 @@ ref.on("value", function(snapshot) {
         for(var k=0; k<datas[i].length;k++){
             
             inter_2 += '<div class="single_menu col-sm-4 col-xs-12 '+keys[i].toLowerCase()+'"> <div class="menu_content wow fadeIn" data-wow-delay="0s">'+
-                        '<h5>'+datas[i][k].name+'</h5> <p>'+datas[i][k].details+'</p><span>'+datas[i][k].price+' TL</span></div></div>'
+                        '<h5>'+datas[i][k].name+'</h5> <p>'+datas[i][k].details+'</p><span>Fiyat: '+datas[i][k].price+' TL</span></div></div>'
         }
 
     }

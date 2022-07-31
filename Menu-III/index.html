@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/color-switcher.css">
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -109,19 +110,19 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-2 col-md-3">
-						<div class="menu-list">
+						<div class="menu-list" id="menu_list">
 							<button class="active" data-filter="*">ALL <i class="zmdi zmdi-caret-right"></i></button>
-							<button data-filter=".breakfast">breakfast</button>
+							<!-- <button data-filter=".breakfast">breakfast</button>
 							<button data-filter=".lunch">Lunch</button>
 							<button data-filter=".dinner">Dinner</button>
 							<button data-filter=".snacks">snacks</button>
-							<button data-filter=".party">party</button>
+							<button data-filter=".party">party</button> -->
 						</div>	
                     </div>
                     <div class="col-lg-10 col-md-9">
                         <div class="custom-row">
-                            <div class="grid">
-                                <div class="col-lg-6 grid-item breakfast dinner party">
+                            <div class="grid" id="products">
+                                <!-- <div class="col-lg-6 grid-item breakfast dinner party">
                                     <div class="menu-item">
                                         <div class="menu-image">
                                             <a href="menu.html"><img src="img/menu/1.jpg" alt=""></a>
@@ -252,7 +253,7 @@
                                             <span>Lorem Ipsum is simply dummy industry.</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -329,5 +330,7 @@
         <script src="js/ajax-mail.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

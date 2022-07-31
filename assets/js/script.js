@@ -35,13 +35,24 @@ ref.on("value", function(snapshot) {
     for(var i=0; i<keys.length;i++){
         for(var k=0; k<datas[i].length;k++){
              
-            inter_2 += '<div class="col-lg-6 menu-item filter-'+keys[i]+'"><div class="menu-content"><a href="#">'+
+            inter_2 += '<div class="col-lg-6 menu-item filter-'+keys[i]+'"><div class="menu-content"><a href="#!" id="'+datas[i][k].image+'"onclick="openimage(this)">'+
             datas[i][k].name+'</a><span>'+datas[i][k].price+' TL</span></div><div class="menu-ingredients">'+
             datas[i][k].details+'</div></div>'
         }
-
     }
     list_menu.innerHTML = inter_2
 }, function (error) {
     console.log("Error: " + error.code);
 });
+
+function openimage(d){
+
+    Swal.fire({
+        title: " Menu Image",
+        imageUrl: d.id,
+        imageWidth: 400,
+        imageHeight: 200,
+        showCancelButton: true
+      })
+      
+}
