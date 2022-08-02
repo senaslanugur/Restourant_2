@@ -140,7 +140,4 @@
         fullWidth: "on",
         forceFullWidth: "on"
     });
-
-
-
 })(jQuery);
