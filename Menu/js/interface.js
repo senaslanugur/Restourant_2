@@ -27,7 +27,6 @@ ref.on("value", function(snapshot) {
             '</div></div><div class="media-right"> <table class="table"><tr><td><a href="#"><h3 class="menu-title">'+test[keys[i]][k].name+'</h3>'+
             ' </a></td><td><div class="menu-rate">'+test[keys[i]][k].price+' TL </div></td></tr></table><p>'+test[keys[i]][k].details+'</p>'+
             '</div></div></div><div class="space-30"></div></div>'
-            
         }
         
     }
