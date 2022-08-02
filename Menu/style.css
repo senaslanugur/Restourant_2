@@ -405,14 +405,14 @@ input:-webkit-autofill:focus {
 
 .menu-title {
     color: #FD5D5D;
-    font-size: 22px;
+    font-size: 25px;
     display: inline-block;
 }
 
 .menu-rate {
     display: inline-block;
     color: #FD5D5D;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .single-menu .table {
