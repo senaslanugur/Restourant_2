@@ -129,7 +129,7 @@ input:-webkit-autofill:focus {
 }
 
 .page-title {
-    color: #fcb941;
+    color: #FD5D5D;
     font-size: 36px;
     font-family: 'Courgette', cursive;
     margin-bottom: 20px;
@@ -404,14 +404,14 @@ input:-webkit-autofill:focus {
 --------------------*/
 
 .menu-title {
-    color: #fcb941;
+    color: #FD5D5D;
     font-size: 22px;
     display: inline-block;
 }
 
 .menu-rate {
     display: inline-block;
-    color: #fcb941;
+    color: #FD5D5D;
     font-size: 22px;
 }
 
